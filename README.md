@@ -32,8 +32,8 @@
 1. Edit the my-nginx service and rebuild/push to registry
     ```
     cd my-nginx
-    docker build -t registry.ng.bluemix.net/cascon2017/my-nginx:1.0.1 .
-    docker push registry.ng.bluemix.net/cascon2017/my-nginx:1.0.1
+    docker build -t registry.ng.bluemix.net/cascon2017/my-nginx:2.0.0 .
+    docker push registry.ng.bluemix.net/cascon2017/my-nginx:2.0.0
     bx cr image-list
     cd ..
     ```
